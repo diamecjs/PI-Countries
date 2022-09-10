@@ -1,0 +1,68 @@
+
+.background {
+  background-image: url(https://www.impulsonegocios.com/wp-content/uploads/2020/11/turismo-aventura-DEF.jpg);
+  background-image: no-repeat;
+  background-size: cover;
+  height: 250px;
+  margin: 0px;
+  padding: 250px;
+}
+
+.formAddTourism {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #001b3b;
+}
+.formAddTourism input {
+  margin: 10px;
+  padding: 5px;
+  margin: 0.5rem;
+}
+.formAddTourism h1 {
+  text-align: center;
+  text-decoration: none;
+  color: #003f8a;
+  display: inline-flexbox;
+  width: 100%;
+}
+
+.formAddTourism select {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formAddTourism button {
+  min-width: 100px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  border: 2px solid #2c0b8e;
+  background: #2c0b8e;
+  left: 50%;
+  font-size:small;
+}
+.formAddTourism button #search:hover {
+  background: #fff;
+  color: #2c0b8e;
+}
+
+.formAddTourism .submit {
+  bottom: 15px;
+  padding: 8px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

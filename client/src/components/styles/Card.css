@@ -1,0 +1,31 @@
+#cardCard{
+    border-radius: 30px;
+    padding: 25px;
+    background-color: hsla(208, 33%, 35%, 0.914);
+    margin: 10px 20px 10px 20px
+  
+}
+#MoreInfo {
+	box-shadow:inset 0px 1px 0px 0px #0f3a65;
+	background:linear-gradient(to bottom, #dcecfb 5%, #0f3a65 100%);
+	background-color:#0f3a65;
+	border-radius:15px;
+	border:1px solid #dcecfb;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+#MoreInfo:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+#MoreInfo:active {
+	position:relative;
+	top:1px;
+}

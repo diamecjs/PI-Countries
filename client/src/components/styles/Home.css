@@ -1,0 +1,72 @@
+#HomeDiv {
+  background-image: url(https://c.wallhere.com/photos/4d/40/camera_old_travel_viaje_school_music_film_leather-745976.jpg!d);
+  background-image: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  margin: 0px;
+}
+#cardHome {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  position: relative;
+  margin-top: 9%;
+  display: grid;
+  justify-items: center;
+  
+}
+
+#botonCreate {
+  box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:linear-gradient(to bottom, #bddbfa 5%, #80b5ea 100%);
+	background-color:#bddbfa;
+	border-radius:25px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+#botonCreate:hover {
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	background-color:#80b5ea;
+}
+#botonCreate:active {
+	position:relative;
+	top:1px;
+}
+
+
+#titulo {
+  color: #003f8a;
+  display: inline-flexbox;
+  width: 100%;
+}
+#reloadCountries{
+ 
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    border: 2px solid #2c0b8e;
+    background: #2c0b8e;
+    left: 50%;
+    font-size: medium;
+  
+  }
+  #reloadCountries:hover {
+    background: #fff;
+    color: #2c0b8e;
+  }

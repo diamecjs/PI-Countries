@@ -1,0 +1,29 @@
+.navbar {
+  height: 56px;
+  width: 100%;
+  top: 0.2rem;
+  left: 0;
+  background-color: #ffffa4;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#search {
+  min-width: 100px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 20px;
+  border: 2px solid #2c0b8e;
+  background: #2c0b8e;
+  left: 50%;
+  font-size:small;
+}
+#search:hover {
+  background: #fff;
+  color: #2c0b8e;
+}
